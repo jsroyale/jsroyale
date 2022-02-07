@@ -7,11 +7,15 @@ import {
   Heading,
   Input,
   Stack,
-  Text,
   VStack,
 } from '@chakra-ui/react'
+import { useRef } from 'react'
 
 export default function Home() {
+  const nameRef = useRef()
+
+  const create = () => {}
+
   return (
     <Flex>
       <Box w='full' h='100vh'>
@@ -30,11 +34,7 @@ export default function Home() {
               <Heading size={'md'}>Create Room</Heading>
               <FormControl>
                 <FormLabel>Room Name</FormLabel>
-                <Input placeholder='Enter room name' />
-              </FormControl>
-              <FormControl>
-                <FormLabel>Room Password</FormLabel>
-                <Input placeholder='Enter room password' />
+                <Input ref={nameRef} placeholder='Enter room name' />
               </FormControl>
               <Button>Create</Button>
             </Stack>

@@ -1,31 +1,23 @@
 import { extendTheme } from '@chakra-ui/react'
 
 const brand = {
-  50: '#fdfde9',
-  100: '#fafac9',
-  200: '#f7f6a6',
-  300: '#f4f284',
-  400: '#f1ee6a',
-  500: '#eee953',
-  600: '#f0db4f',
-  700: '#edc445',
-  800: '#eaad3b',
-  900: '#e4882a',
+  50: '#efe5fe',
+  100: '#d4bffb',
+  200: '#b695f9',
+  300: '#9666f8',
+  400: '#7a40f7',
+  500: '#5a09f4',
+  600: '#4b02ee',
+  700: '#3100e6',
+  800: '#0000e1',
+  900: '#0000dd',
 }
 
 const Button = {
-  // style object for base or default style
-  baseStyle: {
-    bg: 'brand.700',
-    color: 'white',
-  },
-  // styles for different sizes ("sm", "md", "lg")
   sizes: {},
-  // styles for different visual variants ("outline", "solid")
   variants: {},
-  // default values for `size` and `variant`
   defaultProps: {
-    variant: '',
+    colorScheme: 'brand',
   },
 }
 

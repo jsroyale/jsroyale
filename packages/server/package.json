@@ -10,7 +10,8 @@
     "@babel/cli": "^7.17.0",
     "@babel/core": "^7.17.0",
     "@babel/preset-env": "^7.16.11",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1"
   },
   "devDependencies": {
     "@babel/node": "^7.16.8",
